@@ -1,4 +1,6 @@
 // Returns the first settled Promise — fulfilled (use fulfilled, not resolved, because a Promise can settle as either fulfilled or rejected.) or rejected.  
+// 0r
+// Promise.race() returns the result of the Promise that settles first (fulfilled or rejected).
 
 
 const p1 = new Promise((res, rej) => {
